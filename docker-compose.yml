@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  missbot:
+    build: .
+    container_name: g8bot
+    restart: always
+    volumes:
+      - ./:/g8bot
