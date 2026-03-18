@@ -45,7 +45,7 @@ class DeleteMessages(commands.Cog):
 
     @commands.command()
     async def dl(self, ctx, number:int):
-        allowed_roles = [1423857083715158118,1262512004707651704]
+        allowed_roles = [1479683391640174612,1423857083715158118]
 
         if not any(role.id in allowed_roles for role in ctx.author.roles):
             await ctx.send(data["NERTE"], delete_after=5)
